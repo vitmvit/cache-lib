@@ -5,8 +5,8 @@ import ru.clevertec.news.cache.Cache;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static ru.clevertec.news.constant.Constant.CAPACITY_FACTOR;
-import static ru.clevertec.news.constant.Constant.LOAD_FACTOR;
+import static ru.clevertec.news.constant.Variable.CAPACITY_FACTOR;
+import static ru.clevertec.news.constant.Variable.LOAD_FACTOR;
 
 /**
  * Реализация LRU-кэша.
